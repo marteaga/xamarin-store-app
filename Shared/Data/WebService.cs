@@ -181,6 +181,24 @@ namespace XamarinStore
 					"Wisconsin",
 					"Wyoming",
 				};
+			else if(country.ToLower() == "canada")
+			{
+				return new List<string> () {
+					"British Columbia", 
+					"Ontario", 
+					"Newfoundland and Labrador", 
+					"Nova Scotia", 
+					"Prince Edward Island", 
+					"New Brunswick", 
+					"Quebec", 
+					"Manitoba", 
+					"Saskatchewan", 
+					"Alberta", 
+					"Northwest Territories", 
+					"Nunavut",
+					"Yukon Territory"
+				};
+			}
 			return new List<string> ();
 		}
 		#pragma warning restore 1998
